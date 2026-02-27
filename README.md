@@ -62,20 +62,20 @@ Configured the member server’s DNS settings to point to the Domain Controller 
 
 ![DNS Settings](5_dns_settings.png)
 
-### 6. Changed from Workgroup to Domain
+### 6. Network Connectivity Test
+Verified network connectivity and DNS name resolution by successfully pinging workstam.com from the member server, confirming proper communication with the Domain Controller.
+
+![Ping Test](9_ping_test.png)
+
+### 7. Changed from Workgroup to Domain
 Switched the system from a local workgroup to the domain environment.
 
 ![Workgroup to Domain Join](6_workgroup_to_domain_join.png)
 
-### 7. Domain Join Confirmation
+### 8. Domain Join Confirmation
 The member server was successfully joined to the workstam.com domain. After restarting the system to complete the process, its presence was verified in Active Directory Users and Computers under the Computers container.
 
 ![Domain Join](7_domain_join.png) 
-
-### 7. Network Connectivity Test
-Verified network connectivity and DNS name resolution by successfully pinging workstam.com from the member server, confirming proper communication with the Domain Controller.
-
-![Ping Test](9_ping_test.png)
 
 ### 9. Domain Login Verification
 Logged in using domain credentials to confirm authentication.
